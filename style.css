@@ -1,0 +1,82 @@
+body {
+    background-color:black;
+}
+
+@font-face {
+  font-family: Aemstel;
+  src: url(assets/Aemstel-Regular.ttf);
+
+}
+
+@font-face {
+  font-family: aemoutline;
+  src: url(assets/Aemstel-LineOutside.ttf);
+}
+
+ul {
+    
+  list-style-type: none;
+    margin:0;
+    padding: 0;
+    white-space: nowrap;
+    text-align: center;
+    font-family: aemstel;
+    font-size: 1.6rem;    
+    
+  }
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:focus,
+  a:hover {
+    color: white;
+    text-shadow: 4px 4px 4px pink;
+  }
+  li:first-child {
+    font-weight: bold;
+    line-height: 1.2em;
+    color: black;
+    background-color: pink;
+    padding:10px;
+    margin:25px 0px 10px 0px;
+   
+  }
+  input {
+    font-family: aemstel;
+    background-color: transparent;
+    border-color: cyan  ;
+    border-style: solid;
+    color: white;
+    outline: none !important;
+    margin: 5px 5px 5px 5px;
+    opacity: 0.5;
+    width:360px;
+  }
+  input:hover {
+    opacity: 1;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+ 
+  
+  }
+
+  .img1{
+    text-align:center;
+      
+
+  }
+
+.time{
+  text-align:center;
+  color:pink;
+  font-family: aemoutline;
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
+
